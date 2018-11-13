@@ -1,0 +1,54 @@
+
+## to activate the environment:
+
+cd /Users/adele/Desktop/Stanford-classes/CS231n/assignment1
+source activate cs231n
+
+## if you don't have "wget", you can use 
+brew install wget
+
+## to deactivate the environment:
+source deactivate cs231n
+
+
+## to collect submissions:
+cd /Users/adele/Desktop/Stanford-classes/CS231n/assignment1
+./collectSubmission.sh
+
+
+## -------------------------------------
+## if installing tensorflow:
+## -------------------------------------
+
+## in terms of environment, use *** ONLY THHIS ****
+
+
+
+cd /Users/adele/Desktop/Stanford-classes/CS231n/assignment3
+source activate cs231n
+
+curl https://bootstrap.pypa.io/get-pip.py | python
+
+pip3 install future
+
+
+## and then start jupyter notebbok
+
+
+
+
+## get pip
+## reference: https://stackoverflow.com/questions/49768770/not-able-to-install-python-packages-ssl-tlsv1-alert-protocol-version
+
+curl https://bootstrap.pypa.io/get-pip.py | python
+
+## get tensorflow
+pip3 install --upgrade tensorflow
+
+## if getting an error through pip
+
+curl https://bootstrap.pypa.io/get-pip.py | python
+pip3 install future
+
+
+
